@@ -1,0 +1,79 @@
+body {
+  font-family: 'Dosis', sans-serif; 
+  margin: 0;
+  text-align: center;
+  color: darkgrey;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 120px;
+}
+
+header {
+  background-image: url(wave.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+h1 {
+  color: darkslategrey;
+  font-size: 65px;
+  font-weight: 700;
+  margin: 40px;
+}
+
+h2 {
+  font-size: 45px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+header a {
+  color: pink;
+}
+
+.about-stackoverflow {
+  background-color: whitesmoke;
+  color: darkslategrey;
+}
+
+a {
+  color: orangered;
+}
+
+.what-we-do {
+  background-color:#F0FAFE;
+  color: darkslategrey;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  color: darkslategrey;
+}
+
+.icon {
+  margin: 40px;
+}
+
+.icon img {
+  width: 150px;
+}
+
+footer {
+  background-color: lightpink;
+  color: white;
+}
